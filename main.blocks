@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="nt_]W_uy.B,pEMg(K_O,">myImage</variable><variable id="7gCPq3Y,)OxW?5#v)8j1">kostka</variable><variable id="^Kw!b9E/t28,/OYsC|+I">lista</variable></variables><block type="device_gesture_event" id="^Y@Fg3PU|Y;YNBZb]g%y" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="@X%~W[S.ms@i1ZiQi[HR"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="music_playable_play" id="-x9n|h^h,XeA/!xyAPpb"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="}9!_zQAE8635]78ZJF8J"><field name="soundExpression">soundExpression.giggle</field></shadow></value><next><block type="device_show_image_offset" id="GQgxXh?~wnvA,$I2v5_/"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="array_pickRandom" id="]21$u$MDPkv9Gt+F,R6y"><value name="list"><block type="variables_get" id="r7#]plVUH}i3^@aWC}ZI"><field name="VAR" id="7gCPq3Y,)OxW?5#v)8j1">kostka</field></block></value></block></value><value name="offset"><shadow type="math_number" id="kGoB`[=l6;gMp4pTBVjB"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="BYYwjVD_0otJNJyTd;2+"><field name="NUM">400</field></shadow></value></block></next></block></next></block></statement></block><block type="pxt-on-start" id="e/O9H,h/BHu1^),rm*)a" x="-3" y="442"><statement name="HANDLER"><block type="function_call" id="D]7qcyRE.G/=?QMGctMa"><mutation name="przygotuj kostkę" functionid="PHAoz,lxR_|KEi.)DX[Y"></mutation></block></statement></block><block type="function_definition" id="Kr2=Ctn[3b97oB-3sywB" collapsed="true" x="344" y="439"><mutation name="przygotuj kostkę" functionid="PHAoz,lxR_|KEi.)DX[Y"></mutation><field name="function_name">przygotuj kostkę</field><statement name="STACK"><block type="variables_set" id="z!c-PxCj3)P5Wu}Z%O8b"><field name="VAR" id="7gCPq3Y,)OxW?5#v)8j1">kostka</field><value name="VALUE"><block type="lists_create_with" id="CQ1ZP$!{qAZmGC}5;)JR" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><block type="device_build_image" id="[`9#ma:WU+kV!E=u3nun"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="yU(et|]9s_rqg/ZFIh08"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id="S(e__p54^}huOM(O^qwH"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id="/4L9WjU/]$nuWyo.l1QI"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="74a`:W`R~$_:IA~u^A4I"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . #
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id="|GAIM=b-5WRyZ9i7pZQ2"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # .
+        `</field></block></value></block></value></block></statement></block></xml>
